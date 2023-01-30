@@ -130,7 +130,7 @@ class Solution
     //from left to right in Binary Tree.
     static ArrayList<Integer> topView(Node root)
     {
-        Queue<Pair> queue = new ArrayDeque<>();
+        Queue<Pair> queue = new LinkedList<>();
         ArrayList<Integer> res = new ArrayList<>();
         if(root== null){
             return res;
